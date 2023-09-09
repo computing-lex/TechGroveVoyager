@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5589497132288526105}
   - component: {fileID: 5589497132288526104}
   - component: {fileID: 5589497132288526111}
+  - component: {fileID: 122883021883298170}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -28,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5589497132288526109}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5589497132891496770}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4227068377641142523
 MonoBehaviour:
@@ -62,7 +63,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 971518578729158012, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 971518578729158012, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotationInput:
     m_UseReference: 1
     m_Action:
@@ -74,14 +76,15 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 2188567022586841978, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 2188567022586841978, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 3acf7d45-e3cb-49c4-a9f5-04d7a410cf3c
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -105,7 +108,6 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  m_HasMigratedActions: 1
 --- !u!114 &1731473441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,7 +140,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 4715436822718277786, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 4715436822718277786, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotationAction:
     m_UseReference: 0
     m_Action:
@@ -150,7 +153,20 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -3730266099773404857, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -3730266099773404857, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
+  m_IsTrackedAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Is Tracked
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: f3ad3788-4bcb-4f6c-be14-b847f3926cc2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    m_Reference: {fileID: 0}
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
@@ -162,7 +178,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -4937915811870281583, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -4937915811870281583, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_SelectAction:
     m_UseReference: 1
     m_Action:
@@ -174,7 +191,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_SelectActionValue:
     m_UseReference: 0
     m_Action:
@@ -198,7 +216,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_ActivateActionValue:
     m_UseReference: 0
     m_Action:
@@ -222,7 +241,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 1
-    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_UIPressActionValue:
     m_UseReference: 0
     m_Action:
@@ -234,7 +254,20 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -6123989868226725569, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -6123989868226725569, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
+  m_UIScrollAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: UI Scroll
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 6b501352-672d-4b3e-93a0-cad91d0464ae
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   m_HapticDeviceAction:
     m_UseReference: 1
     m_Action:
@@ -246,7 +279,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 716709262026818769, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotateAnchorAction:
     m_UseReference: 1
     m_Action:
@@ -266,14 +300,15 @@ MonoBehaviour:
         m_Action: Rotate Anchor
         m_Flags: 0
       m_Flags: 0
-    m_Reference: {fileID: 5544746641166235747, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 5544746641166235747, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_DirectionalAnchorRotationAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 495b5a1a-39d1-4b96-8f23-88206dd4639c
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -298,7 +333,32 @@ MonoBehaviour:
         m_Action: Translate Anchor
         m_Flags: 0
       m_Flags: 0
-    m_Reference: {fileID: 5544746641166235747, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 5544746641166235747, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
+  m_ScaleToggleAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Toggle
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 3af95050-1551-43ad-8f54-313e566a5c20
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleDeltaAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Delta
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 9bd7fd2d-9e3c-4b8e-be30-82b01d9ae342
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
 --- !u!114 &5589497132288526105
 MonoBehaviour:
@@ -331,7 +391,43 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -401,6 +497,7 @@ MonoBehaviour:
   m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
+  m_ConeCastAngle: 6
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -418,6 +515,16 @@ MonoBehaviour:
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
   m_AnchorRotationMode: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EnableARRaycasting: 0
+  m_OccludeARHitsWith3DObjects: 0
+  m_OccludeARHitsWith2DObjects: 0
+  m_ScaleMode: 0
 --- !u!120 &5589497132288526104
 LineRenderer:
   serializedVersion: 2
@@ -544,6 +651,11 @@ MonoBehaviour:
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
+  m_AutoAdjustLineLength: 0
+  m_MinLineLength: 0.5
+  m_UseDistanceToHitAsMaxLineLength: 1
+  m_LineRetractionDelay: 0.5
+  m_LineLengthChangeSpeed: 12
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -568,6 +680,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  m_SetLineColorGradient: 1
   m_ValidColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -667,6 +780,22 @@ MonoBehaviour:
   m_StopLineAtFirstRaycastHit: 1
   m_StopLineAtSelection: 0
   m_SnapEndpointIfAvailable: 1
+  m_LineBendRatio: 0.5
+  m_OverrideInteractorLineOrigin: 1
+  m_LineOriginTransform: {fileID: 0}
+  m_LineOriginOffset: 0
+--- !u!114 &122883021883298170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589497132288526109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba376f8490585ec48a9e4ee93c45ef1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5589497132891496769
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +820,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5589497132891496769}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -702,7 +832,6 @@ Transform:
   - {fileID: 5589497132288526110}
   - {fileID: 5589497133034083133}
   m_Father: {fileID: 5589497133593145648}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &524692942289420819
 MonoBehaviour:
@@ -749,13 +878,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5589497133001389820}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5589497132891496770}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6169045109616253027
 MonoBehaviour:
@@ -783,7 +912,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2353999202519565437, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -2353999202519565437, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotationInput:
     m_UseReference: 1
     m_Action:
@@ -795,7 +925,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -4607609863168903279, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -4607609863168903279, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
@@ -826,7 +957,6 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  m_HasMigratedActions: 1
 --- !u!114 &1418243607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -859,7 +989,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2353999202519565437, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -2353999202519565437, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotationAction:
     m_UseReference: 0
     m_Action:
@@ -871,7 +1002,20 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -4607609863168903279, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -4607609863168903279, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
+  m_IsTrackedAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Is Tracked
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: c5967f14-7830-43e8-ac17-8ce0a35b999f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    m_Reference: {fileID: 0}
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
@@ -956,6 +1100,18 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+  m_UIScrollAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: UI Scroll
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 867ee469-29e0-4725-9f53-ffa420af399f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   m_HapticDeviceAction:
     m_UseReference: 0
     m_Action:
@@ -999,6 +1155,30 @@ MonoBehaviour:
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 46cfc894-5439-4b68-92fc-e5d64f696fbf
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleToggleAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Toggle
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 6c6c271d-bab1-47f1-9dc4-ec2ebe9b2c4e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleDeltaAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Delta
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: e14056ad-bec5-4912-90c7-7e5b5ea336e7
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1106,6 +1286,7 @@ MonoBehaviour:
   m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
+  m_ConeCastAngle: 6
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1123,6 +1304,16 @@ MonoBehaviour:
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
   m_AnchorRotationMode: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EnableARRaycasting: 0
+  m_OccludeARHitsWith3DObjects: 0
+  m_OccludeARHitsWith2DObjects: 0
+  m_ScaleMode: 0
 --- !u!120 &5589497133001389823
 LineRenderer:
   serializedVersion: 2
@@ -1249,6 +1440,11 @@ MonoBehaviour:
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
+  m_AutoAdjustLineLength: 0
+  m_MinLineLength: 0.5
+  m_UseDistanceToHitAsMaxLineLength: 1
+  m_LineRetractionDelay: 0.5
+  m_LineLengthChangeSpeed: 12
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -1273,6 +1469,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  m_SetLineColorGradient: 1
   m_ValidColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1372,6 +1569,10 @@ MonoBehaviour:
   m_StopLineAtFirstRaycastHit: 1
   m_StopLineAtSelection: 0
   m_SnapEndpointIfAvailable: 1
+  m_LineBendRatio: 0.5
+  m_OverrideInteractorLineOrigin: 1
+  m_LineOriginTransform: {fileID: 0}
+  m_LineOriginOffset: 0
 --- !u!1 &5589497133034083132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,13 +1600,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5589497133034083132}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5589497132891496770}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1418243606
 MonoBehaviour:
@@ -1447,7 +1648,8 @@ MonoBehaviour:
         m_Action: Position
         m_Flags: 0
       m_Flags: 0
-    m_Reference: {fileID: 3736007580099224278, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 3736007580099224278, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotationAction:
     m_UseReference: 0
     m_Action:
@@ -1467,7 +1669,20 @@ MonoBehaviour:
         m_Action: Rotation
         m_Flags: 0
       m_Flags: 0
-    m_Reference: {fileID: 3736007580099224278, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 3736007580099224278, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
+  m_IsTrackedAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Is Tracked
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 62565c69-1236-4e03-af27-8ab737afe1ad
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    m_Reference: {fileID: 0}
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
@@ -1552,6 +1767,18 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+  m_UIScrollAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: UI Scroll
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 0fb422f4-80b5-4d30-a01a-78d8d412f001
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   m_HapticDeviceAction:
     m_UseReference: 0
     m_Action:
@@ -1579,10 +1806,10 @@ MonoBehaviour:
   m_DirectionalAnchorRotationAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 69eb8897-14cd-42ef-94c8-76be2f869b91
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1595,6 +1822,30 @@ MonoBehaviour:
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 7cdc056c-9f88-4f31-9823-c97507ab7e32
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleToggleAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Toggle
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 19c77ce1-deb9-4983-9389-7487186d304e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleDeltaAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Delta
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 734aa963-3a87-4071-a3ab-f01b3af525c2
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1702,6 +1953,7 @@ MonoBehaviour:
   m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
+  m_ConeCastAngle: 6
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1719,6 +1971,16 @@ MonoBehaviour:
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
   m_AnchorRotationMode: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EnableARRaycasting: 0
+  m_OccludeARHitsWith3DObjects: 0
+  m_OccludeARHitsWith2DObjects: 0
+  m_ScaleMode: 0
 --- !u!120 &5589497133034083135
 LineRenderer:
   serializedVersion: 2
@@ -1845,6 +2107,11 @@ MonoBehaviour:
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
+  m_AutoAdjustLineLength: 0
+  m_MinLineLength: 0.5
+  m_UseDistanceToHitAsMaxLineLength: 1
+  m_LineRetractionDelay: 0.5
+  m_LineLengthChangeSpeed: 12
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -1869,6 +2136,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  m_SetLineColorGradient: 1
   m_ValidColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1968,6 +2236,10 @@ MonoBehaviour:
   m_StopLineAtFirstRaycastHit: 1
   m_StopLineAtSelection: 0
   m_SnapEndpointIfAvailable: 1
+  m_LineBendRatio: 0.5
+  m_OverrideInteractorLineOrigin: 1
+  m_LineOriginTransform: {fileID: 0}
+  m_LineOriginOffset: 0
 --- !u!1 &5589497133593145652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,6 +2266,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5589497133593145652}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2001,7 +2274,6 @@ Transform:
   m_Children:
   - {fileID: 5589497132891496770}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5589497133593145654
 MonoBehaviour:
@@ -2072,13 +2344,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5589497134372387911}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5589497132891496770}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4466084576785863238
 MonoBehaviour:
@@ -2106,7 +2378,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -4319516118568744573, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -4319516118568744573, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotationInput:
     m_UseReference: 1
     m_Action:
@@ -2118,7 +2391,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 601750489641515592, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: 601750489641515592, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
@@ -2149,7 +2423,6 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  m_HasMigratedActions: 1
 --- !u!114 &7155312890581622954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2182,7 +2455,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2353999202519565437, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -2353999202519565437, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
   m_RotationAction:
     m_UseReference: 0
     m_Action:
@@ -2194,7 +2468,20 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -4607609863168903279, guid: a7b3d28b346833f4ea10936be7a9f18c, type: 3}
+    m_Reference: {fileID: -4607609863168903279, guid: a7b3d28b346833f4ea10936be7a9f18c,
+      type: 3}
+  m_IsTrackedAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Is Tracked
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 7a000236-ae47-431f-ab7d-f22905a20c23
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    m_Reference: {fileID: 0}
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
@@ -2279,6 +2566,18 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+  m_UIScrollAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: UI Scroll
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 84a772d7-4701-4f68-8a17-60021f41ff56
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   m_HapticDeviceAction:
     m_UseReference: 0
     m_Action:
@@ -2322,6 +2621,30 @@ MonoBehaviour:
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 46cfc894-5439-4b68-92fc-e5d64f696fbf
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleToggleAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Toggle
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: c937d371-17b2-46ac-8e56-589adca195bf
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleDeltaAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Delta
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 723fd2ae-6508-400f-bfe1-097026268127
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2429,6 +2752,7 @@ MonoBehaviour:
   m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
+  m_ConeCastAngle: 6
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2446,6 +2770,16 @@ MonoBehaviour:
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
   m_AnchorRotationMode: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EnableARRaycasting: 0
+  m_OccludeARHitsWith3DObjects: 0
+  m_OccludeARHitsWith2DObjects: 0
+  m_ScaleMode: 0
 --- !u!120 &5589497134372387906
 LineRenderer:
   serializedVersion: 2
@@ -2572,6 +2906,11 @@ MonoBehaviour:
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
+  m_AutoAdjustLineLength: 0
+  m_MinLineLength: 0.5
+  m_UseDistanceToHitAsMaxLineLength: 1
+  m_LineRetractionDelay: 0.5
+  m_LineLengthChangeSpeed: 12
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -2596,6 +2935,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  m_SetLineColorGradient: 1
   m_ValidColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -2695,6 +3035,10 @@ MonoBehaviour:
   m_StopLineAtFirstRaycastHit: 1
   m_StopLineAtSelection: 0
   m_SnapEndpointIfAvailable: 1
+  m_LineBendRatio: 0.5
+  m_OverrideInteractorLineOrigin: 1
+  m_LineOriginTransform: {fileID: 0}
+  m_LineOriginOffset: 0
 --- !u!1001 &5589497132469688087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2751,15 +3095,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3771369551179688024, guid: 24158fb1437dc8e418d893939758764d, type: 3}
+    - target: {fileID: 3771369551179688024, guid: 24158fb1437dc8e418d893939758764d,
+        type: 3}
       propertyPath: m_TrackingStateInput.m_Action.m_Id
       value: c00e567b-92b6-4923-bc16-16d036db8358
       objectReference: {fileID: 0}
-    - target: {fileID: 3771369551179688024, guid: 24158fb1437dc8e418d893939758764d, type: 3}
+    - target: {fileID: 3771369551179688024, guid: 24158fb1437dc8e418d893939758764d,
+        type: 3}
       propertyPath: m_TrackingStateInput.m_Action.m_Name
       value: Tracking State Input
       objectReference: {fileID: 0}
-    - target: {fileID: 5850404675360181103, guid: 24158fb1437dc8e418d893939758764d, type: 3}
+    - target: {fileID: 5850404675360181103, guid: 24158fb1437dc8e418d893939758764d,
+        type: 3}
       propertyPath: recenterXROriginAtStart
       value: 0
       objectReference: {fileID: 0}
@@ -2771,11 +3118,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 24158fb1437dc8e418d893939758764d, type: 3}
 --- !u!4 &5593219067060734525 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4214550324010282, guid: 24158fb1437dc8e418d893939758764d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4214550324010282, guid: 24158fb1437dc8e418d893939758764d,
+    type: 3}
   m_PrefabInstance: {fileID: 5589497132469688087}
   m_PrefabAsset: {fileID: 0}
 --- !u!20 &5609791579423962305 stripped
 Camera:
-  m_CorrespondingSourceObject: {fileID: 20294507499185110, guid: 24158fb1437dc8e418d893939758764d, type: 3}
+  m_CorrespondingSourceObject: {fileID: 20294507499185110, guid: 24158fb1437dc8e418d893939758764d,
+    type: 3}
   m_PrefabInstance: {fileID: 5589497132469688087}
   m_PrefabAsset: {fileID: 0}
