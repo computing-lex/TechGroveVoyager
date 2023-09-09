@@ -1318,12 +1318,6 @@ RectTransform:
   m_AnchoredPosition: {x: -44.76, y: 61}
   m_SizeDelta: {x: 352.46, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &177032230 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5589497133593145652, guid: fe799b2d0a84dfe43b001b56276fd2fb,
-    type: 3}
-  m_PrefabInstance: {fileID: 957753390}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &229109799
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,11 +2850,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5589497133593145652, guid: fe799b2d0a84dfe43b001b56276fd2fb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1630171386}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe799b2d0a84dfe43b001b56276fd2fb, type: 3}
 --- !u!4 &957753391 stripped
 Transform:
@@ -4173,14 +4163,6 @@ Transform:
   - {fileID: 1744921208}
   m_Father: {fileID: 326853496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1630171386
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 177032230}
-  m_Enabled: 1
 --- !u!1 &1630204165
 GameObject:
   m_ObjectHideFlags: 0
@@ -4931,7 +4913,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.36, z: -2.38}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
