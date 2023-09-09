@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/Meshing.unity
     guid: 867506c3cbb29bc42a71d236fbd415c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/MarkerTracking.unity
     guid: 9197470ccd4bc5c45bffdce5bf2393a3
   - enabled: 0
@@ -74,6 +74,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MagicLeap/Examples/Scenes/WacomTablet.unity
     guid: 858001671d830a34c8cb14f536bbdee1
+  - enabled: 1
+    path: Assets/Scenes/MagicLeapTest.unity
+    guid: 8775f1d5cf0101c48acbc28e1c6e187f
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: cde6fcd122059494d8356e13afe94bbf,
       type: 2}

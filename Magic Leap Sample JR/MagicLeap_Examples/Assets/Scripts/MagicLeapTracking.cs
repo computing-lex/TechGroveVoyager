@@ -7,6 +7,8 @@ public class MagicLeapTracking : MonoBehaviour
 {
     public float QrCodeMarkerSize = 0.1f;
     public float ArucoMarkerSize = 0.1f;
+    public GameObject realMarker;
+    public Quaternion rotAdjust;
     public MLMarkerTracker.MarkerType Type = MLMarkerTracker.MarkerType.QR;
     public MLMarkerTracker.ArucoDictionaryName ArucoDict = MLMarkerTracker.ArucoDictionaryName.DICT_5X5_100;
     public MLMarkerTracker.Profile Profile = MLMarkerTracker.Profile.Default;
@@ -74,6 +76,8 @@ public class MagicLeapTracking : MonoBehaviour
                 marker.transform.position = data.Pose.position;
                 marker.transform.rotation = data.Pose.rotation;
                 marker.transform.localScale = new Vector3(markerSize, markerSize, markerSize);
+                realMarker.transform.position = marker.transform.position;
+                realMarker.transform.rotation = rotAdjust;
                 _markers.Add(id, marker);
             }
         }
