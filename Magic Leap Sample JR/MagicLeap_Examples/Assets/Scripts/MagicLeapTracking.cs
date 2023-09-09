@@ -69,16 +69,16 @@ public class MagicLeapTracking : MonoBehaviour
             else
             {
                 //Create a primitive cube
-                GameObject marker = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                //GameObject marker = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 //Render the cube with the default URP shader
-                marker.AddComponent<Renderer>();
-                marker.GetComponent<Renderer>().material = new Material(Shader.Find("Universal Render Pipeline/Lit"));
-                marker.transform.position = data.Pose.position;
-                marker.transform.rotation = data.Pose.rotation;
-                marker.transform.localScale = new Vector3(markerSize, markerSize, markerSize);
-                realMarker.transform.position = marker.transform.position;
+                //marker.AddComponent<Renderer>();
+                //marker.GetComponent<Renderer>().material = new Material(Shader.Find("Universal Render Pipeline/Lit"));
+                //marker.transform.position = data.Pose.position;
+                //marker.transform.rotation = data.Pose.rotation;
+                //marker.transform.localScale = new Vector3(markerSize, markerSize, markerSize);
+                realMarker.transform.position = data.Pose.position;
                 realMarker.transform.rotation = rotAdjust;
-                _markers.Add(id, marker);
+                _markers.Add(id, realMarker);
             }
         }
     }
