@@ -18,12 +18,11 @@ public class CheckAtomImage : MonoBehaviour
         if (leftImage.sprite.name == "Hydrogen1" &&  rightImage.sprite.name == "Hydrogen2")
         {
             goodSound.PlayDelayed(1);
-            Debug.Log("Good");
+            GameObject.FindObjectOfType<GameManager>().everythingIsFixed = true;
         }
         else
         {
             badSound.PlayDelayed(1);
-            Debug.Log("Bad");
         }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurnOnLasers : MonoBehaviour
 {
-
+    public Transform laserOrigin;
     public Transform diskPiece;
     private LineRenderer diskLocator;    
 
@@ -17,6 +17,8 @@ public class TurnOnLasers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        diskLocator.SetPosition(0,laserOrigin.position);
         diskLocator.SetPosition(1,diskPiece.position);
 
     }

@@ -15,7 +15,7 @@ public class TurnOnTheLasers : MonoBehaviour
             {
                 theManager.lasers[i].enabled = true;
             }
-            this.gameObject.SetActive(false);
+            //this.gameObject.SetActive(false);
         }
     }
 }

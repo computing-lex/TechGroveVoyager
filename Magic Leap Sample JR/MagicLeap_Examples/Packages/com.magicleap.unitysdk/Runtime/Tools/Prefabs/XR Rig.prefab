@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 5589497132288526111}
   - component: {fileID: 122883021883298170}
   - component: {fileID: 5903506257562843681}
+  - component: {fileID: 398163220154677354}
+  - component: {fileID: 2840790773395247169}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -804,12 +806,53 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5589497132288526109}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e0158b3796ad1443b87164a2146d573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: {fileID: 0}
+  hand: {fileID: 6314313254189913177, guid: f3607c4eb7a56e740b33522adf11b8e0, type: 3}
+--- !u!114 &398163220154677354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589497132288526109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0efe7496473794ca6c9684124f03f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference: {fileID: 88486259915779015, guid: 0a04008b364e1de4a89c21792f9e683b, type: 3}
+  origin: {fileID: 0}
+  initalized: 0
+  calibration:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+--- !u!136 &2840790773395247169
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5589497132288526109}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.03
+  m_Height: 0.15
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5589497132891496769
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,10 +987,10 @@ MonoBehaviour:
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 884adfd7-3e67-4aaa-a26c-e39cf97d9f43
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
