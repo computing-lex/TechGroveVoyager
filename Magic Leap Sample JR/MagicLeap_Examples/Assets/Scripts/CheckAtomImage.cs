@@ -10,13 +10,6 @@ public class CheckAtomImage : MonoBehaviour
 
     public void checkAtoms()
     {
-        if(leftImage.sprite.name == "Hydrogen1" && rightImage.sprite.name == "Hydrogen2")
-        {
-            Debug.Log("Good");
-        }
-        else
-        {
-            Debug.Log("Bad");
-        }
+
     }
 }
