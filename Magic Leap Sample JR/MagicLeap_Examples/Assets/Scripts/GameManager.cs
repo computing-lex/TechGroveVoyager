@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
             celebration = true;
         }
     }
+
     public void AddAPiece()
     {
         piecesCollected++;
