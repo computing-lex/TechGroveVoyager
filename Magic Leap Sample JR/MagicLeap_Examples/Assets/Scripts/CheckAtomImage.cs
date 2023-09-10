@@ -8,14 +8,14 @@ public class CheckAtomImage : MonoBehaviour
     public Image leftImage;
     public Image rightImage;
 
-    public AudioSource clickSound;
     public AudioSource goodSound;
     public AudioSource badSound;
+    public AudioSource clickSound;
 
     public void checkAtoms()
     {
-        clickSound.Play();
-        if(leftImage.sprite.name == "Hydrogen1" &&  rightImage.sprite.name == "Hydrogen2")
+        clickSound.PlayOneShot(clickSound.clip);
+        if (leftImage.sprite.name == "Hydrogen1" &&  rightImage.sprite.name == "Hydrogen2")
         {
             goodSound.PlayDelayed(1);
             Debug.Log("Good");
