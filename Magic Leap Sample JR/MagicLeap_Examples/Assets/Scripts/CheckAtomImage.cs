@@ -14,16 +14,15 @@ public class CheckAtomImage : MonoBehaviour
 
     public void checkAtoms()
     {
-        clickSound.PlayOneShot(clickSound.clip);
+        //clickSound.PlayOneShot(clickSound.clip);
         if (leftImage.sprite.name == "Hydrogen1" &&  rightImage.sprite.name == "Hydrogen2")
         {
-            goodSound.PlayDelayed(1);
-            Debug.Log("Good");
+            //goodSound.PlayDelayed(1);
+            GameObject.FindObjectOfType<GameManager>().everythingIsFixed = true;
         }
         else
         {
-            badSound.PlayDelayed(1);
-            Debug.Log("Bad");
+            //badSound.PlayDelayed(1);
         }
     }
 }
