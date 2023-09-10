@@ -493,7 +493,6 @@ GameObject:
   - component: {fileID: 3079684233979738087}
   - component: {fileID: 1079322010733882234}
   - component: {fileID: 4291990682139863763}
-  - component: {fileID: 5671943188554051216}
   m_Layer: 0
   m_Name: Niddle
   m_TagString: Untagged
@@ -614,27 +613,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.99999994, y: 1, z: 1}
   m_Center: {x: 0.0000009536743, y: 0, z: 0}
---- !u!114 &5671943188554051216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461725244081122593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f77daf9f8d9b1845ae6b805e1b33d5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Image: {fileID: 0}
-  atoms:
-  - {fileID: 21300000, guid: d6a50047638476e4588bb863d245ebd4, type: 3}
-  - {fileID: 21300000, guid: a727c3c6c1251c14a8a3ee3971d390f9, type: 3}
-  - {fileID: 21300000, guid: 4f3ab59a1099e844495755ea6d4bad42, type: 3}
-  - {fileID: 21300000, guid: a06e1b31043cf8446b6cb3443fe198f8, type: 3}
-  - {fileID: 21300000, guid: d914f32ef83264a4ab4e4442a81c2fb9, type: 3}
-  - {fileID: 21300000, guid: 23c5a3175a5aee44d9c4c89cd3403da7, type: 3}
-  - {fileID: 21300000, guid: 65c6f2dad975fef40aff7f106e58dda3, type: 3}
 --- !u!1 &1527283547918999316
 GameObject:
   m_ObjectHideFlags: 0
@@ -2295,7 +2273,6 @@ GameObject:
   - component: {fileID: 537578030683030390}
   - component: {fileID: 4180423796396698610}
   - component: {fileID: 7777180932618766306}
-  - component: {fileID: 9098261347728834428}
   m_Layer: 0
   m_Name: Niddle
   m_TagString: Untagged
@@ -2416,27 +2393,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.99999994, y: 1, z: 1}
   m_Center: {x: 0.0000009536743, y: 0, z: 0}
---- !u!114 &9098261347728834428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5608667655877984265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f77daf9f8d9b1845ae6b805e1b33d5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Image: {fileID: 0}
-  atoms:
-  - {fileID: 21300000, guid: d6a50047638476e4588bb863d245ebd4, type: 3}
-  - {fileID: 21300000, guid: a727c3c6c1251c14a8a3ee3971d390f9, type: 3}
-  - {fileID: 21300000, guid: 4f3ab59a1099e844495755ea6d4bad42, type: 3}
-  - {fileID: 21300000, guid: a06e1b31043cf8446b6cb3443fe198f8, type: 3}
-  - {fileID: 21300000, guid: d914f32ef83264a4ab4e4442a81c2fb9, type: 3}
-  - {fileID: 21300000, guid: 23c5a3175a5aee44d9c4c89cd3403da7, type: 3}
-  - {fileID: 21300000, guid: 65c6f2dad975fef40aff7f106e58dda3, type: 3}
 --- !u!1 &5751964404407008670
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,7 +2523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5783081734733591885}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
