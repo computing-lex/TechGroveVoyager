@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2842359028318024515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5698747570432580925}
+  m_Layer: 0
+  m_Name: LaserOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5698747570432580925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2842359028318024515}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2074772744561252533}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4774235955520985435
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8460ba4e640f1bc4f97e09ab93c2c850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserOrigin: {fileID: 5698747570432580925}
   diskPiece: {fileID: 0}
 --- !u!1 &5893204981230968110
 GameObject:
@@ -299,6 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8460ba4e640f1bc4f97e09ab93c2c850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserOrigin: {fileID: 5698747570432580925}
   diskPiece: {fileID: 0}
 --- !u!1 &6383026883861470006
 GameObject:
@@ -336,6 +369,7 @@ Transform:
   - {fileID: 3193477574852593814}
   - {fileID: 7780757147934772532}
   - {fileID: 6771794308558154962}
+  - {fileID: 5698747570432580925}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9065829793423926733
@@ -558,6 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8460ba4e640f1bc4f97e09ab93c2c850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserOrigin: {fileID: 5698747570432580925}
   diskPiece: {fileID: 0}
 --- !u!1001 &6516856506248563513
 PrefabInstance:
