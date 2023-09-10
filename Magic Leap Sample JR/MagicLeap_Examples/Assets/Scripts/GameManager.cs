@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] diskPieces;
     public LineRenderer[] lasers;
+    public Transform fixedLocation;
     public float piecesCollected = 0;
+
 
     // Start is called before the first frame update
     void Start()
