@@ -77,7 +77,7 @@ public class MagicLeapTracking : MonoBehaviour
                 //marker.transform.rotation = data.Pose.rotation;
                 //marker.transform.localScale = new Vector3(markerSize, markerSize, markerSize);
                 realMarker.transform.position = data.Pose.position;
-                realMarker.transform.rotation = rotAdjust;
+                //realMarker.transform.rotation = rotAdjust;
                 _markers.Add(id, realMarker);
             }
         }
