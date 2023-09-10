@@ -44,7 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53f23420aa03784fb35a7b49ffdcce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  diskPieces: []
+  diskPieces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   lasers:
   - {fileID: 0}
   - {fileID: 0}
