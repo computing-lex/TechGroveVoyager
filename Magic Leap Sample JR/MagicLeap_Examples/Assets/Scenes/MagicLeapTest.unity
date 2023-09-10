@@ -5740,6 +5740,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.722
       objectReference: {fileID: 0}
+    - target: {fileID: 1208345505279578058, guid: cd430cd5c5da1ae49a965ddecf7f5e5d,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3155427121549631280, guid: cd430cd5c5da1ae49a965ddecf7f5e5d,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401402886696171306, guid: cd430cd5c5da1ae49a965ddecf7f5e5d,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4403267041003986523, guid: cd430cd5c5da1ae49a965ddecf7f5e5d,
         type: 3}
       propertyPath: m_Name
