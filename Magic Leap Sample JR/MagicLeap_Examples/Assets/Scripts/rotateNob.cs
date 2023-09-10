@@ -35,7 +35,6 @@ public class rotateNob : MonoBehaviour
        
         if (turnTheNob)
         {
-            Debug.Log(triggerValue);
             nob.SetFloat("Horizontal", triggerValue.x);
             nob.SetFloat("Vertical", triggerValue.y);
         }
