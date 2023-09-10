@@ -8,79 +8,30 @@ public class FrequencySetter : MonoBehaviour
     public LineRenderer frequencyWave;
     int frequency;
 
+    float[] yFrequency = new float[30];
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        for (int i = 0; i < 30; i++)
+        {
+            yFrequency[i] = frequencyWave.GetPosition(i).y;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RunTheFrequency()
     {
-        if (frequency == 0)
-        {
-            for (int i = 0;i<30;i++)
-            {
-              Vector3 currentPosition = frequencyWave.GetPosition(i);
-              Vector3 newPosition = new Vector3(currentPosition.x, Random.Range(-0.05f, 0.05f), currentPosition.z);
-              frequencyWave.SetPosition(i, newPosition);
-            }
-        }
-        if (frequency == 1)
-        {
-            for (int i = 0; i < 30; i++)
-            {
-                Vector3 currentPosition = frequencyWave.GetPosition(i);
-                Vector3 newPosition = new Vector3(currentPosition.x, Random.Range(-0.05f, 0.05f), currentPosition.z);
-                frequencyWave.SetPosition(i, newPosition);
-            }
-        }
-        if (frequency == 2)
-        {
-            for (int i = 0; i < 30; i++)
-            {
-                Vector3 currentPosition = frequencyWave.GetPosition(i);
-                Vector3 newPosition = new Vector3(currentPosition.x, Random.Range(-0.05f, 0.05f), currentPosition.z);
-                frequencyWave.SetPosition(i, newPosition);
-            }
-        }
-        if (frequency == 3)
-        {
-            for (int i = 0; i < 30; i++)
-            {
-                Vector3 currentPosition = frequencyWave.GetPosition(i);
-                Vector3 newPosition = new Vector3(currentPosition.x, Random.Range(-0.05f, 0.05f), currentPosition.z);
-                frequencyWave.SetPosition(i, newPosition);
-            }
-        }
-        if (frequency == 4)
-        {
-            for (int i = 0; i < 30; i++)
-            {
-                Vector3 currentPosition = frequencyWave.GetPosition(i);
-                Vector3 newPosition = new Vector3(currentPosition.x, Random.Range(-0.05f, 0.05f), currentPosition.z);
-                frequencyWave.SetPosition(i, newPosition);
-            }
-        }
+        
         if (frequency == 5)
         {
             for (int i = 0; i < 30; i++)
             {
                 Vector3 currentPosition = frequencyWave.GetPosition(i);
-                Vector3 newPosition = new Vector3(currentPosition.x, Random.Range(-0.05f, 0.05f), currentPosition.z);
+                Vector3 newPosition = new Vector3(currentPosition.x, yFrequency[i], currentPosition.z);
                 frequencyWave.SetPosition(i, newPosition);
             }
         }
-        if (frequency == 6)
-        {
-            for (int i = 0; i < 30; i++)
-            {
-                Vector3 currentPosition = frequencyWave.GetPosition(i);
-                Vector3 newPosition = new Vector3(currentPosition.x, Random.Range(-0.05f, 0.05f), currentPosition.z);
-                frequencyWave.SetPosition(i, newPosition);
-            }
-        }
-        if (frequency == 7)
+        else
         {
             for (int i = 0; i < 30; i++)
             {
