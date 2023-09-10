@@ -366,7 +366,6 @@ GameObject:
   m_Component:
   - component: {fileID: 41861700}
   - component: {fileID: 41861699}
-  - component: {fileID: 41861701}
   m_Layer: 0
   m_Name: MarkerTrackingExample
   m_TagString: Untagged
@@ -401,25 +400,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 629750378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &41861701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41861697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e64b2f459e78f94da8e9078dbd50414, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QrCodeMarkerSize: 0.1
-  ArucoMarkerSize: 0.1
-  realMarker: {fileID: 1941533399}
-  rotAdjust: {x: 0, y: 0, z: 0, w: 1}
-  Type: 2
-  ArucoDict: 9
-  Profile: 0
 --- !u!1001 &63716609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -996,6 +976,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2c13349e744edbb4a99ba449dff56a7f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d4d8aa54887a414e9953dd08911e7c5, type: 2}
     - target: {fileID: 919132149155446097, guid: 2c13349e744edbb4a99ba449dff56a7f,
         type: 3}
       propertyPath: m_Name
@@ -1088,7 +1073,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5589497132288526109, guid: fe799b2d0a84dfe43b001b56276fd2fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1987116049}
   m_SourcePrefab: {fileID: 100100000, guid: fe799b2d0a84dfe43b001b56276fd2fb, type: 3}
 --- !u!1 &356982988
 GameObject:
@@ -5785,6 +5774,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960598335}
   m_CullTransparentMesh: 0
+--- !u!1 &1987116040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5589497132288526109, guid: fe799b2d0a84dfe43b001b56276fd2fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 243502982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1987116049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987116040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0efe7496473794ca6c9684124f03f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  origin: {fileID: 1941533399}
 --- !u!1 &2059331135
 GameObject:
   m_ObjectHideFlags: 0
