@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public float piecesCollected = 0;
     public GameObject confetti;
     public bool everythingIsFixed = false;
-
+    public int numberOfPuzzles = 0;
     public bool celebration = false;
 
 
@@ -24,6 +24,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(numberOfPuzzles > 1)
+        {
+            everythingIsFixed |= true;
+        }
         if (everythingIsFixed && !celebration)
         {
             Instantiate(confetti,fixedLocation.position,fixedLocation.rotation);

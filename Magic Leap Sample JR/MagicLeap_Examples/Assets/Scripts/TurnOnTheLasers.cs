@@ -9,13 +9,12 @@ public class TurnOnTheLasers : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.name == "Stand")
+        if(other.name == "LaserOrigin")
         {
             for(int i = 0; i < 3; i++) 
             {
                 theManager.lasers[i].enabled = true;
             }
-            //this.gameObject.SetActive(false);
         }
     }
 }

@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
-public class CheckAtomImage : MonoBehaviour
+public class CheckTheBinaryCode : MonoBehaviour
 {
-    public Image leftImage;
-    public Image rightImage;
+    public TMP_Text textField;
 
     public AudioSource goodSound;
     public AudioSource badSound;
@@ -15,7 +14,7 @@ public class CheckAtomImage : MonoBehaviour
     public void checkAtoms()
     {
         clickSound.PlayOneShot(clickSound.clip);
-        if (leftImage.sprite.name == "Hydrogen1" &&  rightImage.sprite.name == "Hydrogen2")
+        if (textField.text == "100110000110010000000000000000000")
         {
             goodSound.PlayDelayed(1);
             GameObject.FindObjectOfType<GameManager>().numberOfPuzzles++;

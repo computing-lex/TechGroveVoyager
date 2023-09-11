@@ -12,4 +12,8 @@ public class GoToTheTable : MonoBehaviour
         transform.position = destination.position;
         laser.enabled = false;
     }
+    private void Update()
+    {
+        transform.LookAt(Camera.main.transform.position);
+    }
 }
